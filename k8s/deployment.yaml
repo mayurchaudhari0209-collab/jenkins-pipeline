@@ -1,3 +1,4 @@
+
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -16,7 +17,7 @@ spec:
     spec:
       containers:
         - name: demoapp
-          image: YOUR_DOCKERHUB_USERNAME/demoapp:latest
+          image: mayur11001/my-cicd:13
           imagePullPolicy: Always
           ports:
             - name: http
